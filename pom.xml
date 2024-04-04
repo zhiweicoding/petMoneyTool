@@ -157,7 +157,7 @@
                 </executions>
                 <configuration>
                     <tag>${project.version}</tag>
-                    <repository>zhiweicoding/${project.artifactId}</repository>
+                    <repository>loveqianqian/${project.artifactId}</repository>
                     <buildArgs>
                         <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
