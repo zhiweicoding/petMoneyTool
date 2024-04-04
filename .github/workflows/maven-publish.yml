@@ -32,4 +32,4 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
       - name: Push the Docker image
-        run: docker push zhiweicoding/pet_money_tool:1.0.0
+        run: docker push loveqianqian/pet_money_tool:1.0.0
