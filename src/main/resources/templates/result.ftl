@@ -48,7 +48,6 @@
         <th>创建时间</th>
         <th>地址</th>
         <th>订单积分支付金额</th>
-        <th>是否发货</th>
         <th>商品信息</th>
     </tr>
     <#list orderArray as order>
@@ -56,7 +55,6 @@
             <td>${order.createTime}</td>
             <td class="address">${order.address}</td>
             <td>${order.moneyTotal}</td>
-            <td>${order.hadTrack}</td>
             <td>
                 <table>
                     <tr>
