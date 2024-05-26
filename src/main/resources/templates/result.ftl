@@ -54,7 +54,12 @@
         <tr>
             <td>${order.createTime}</td>
             <td class="address">${order.address}</td>
-            <td>${order.moneyTotal}</td>
+            <td><#if order.moneyTotal??>
+                    ${order.moneyTotal}
+                <#else>
+                    0
+                </#if>
+            </td>
             <td>
                 <table>
                     <tr>
