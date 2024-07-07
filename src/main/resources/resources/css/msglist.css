@@ -1,0 +1,67 @@
+.msglistli:after {
+    visibility: hidden;
+    content: ".";
+}
+
+.clear, .msglistli:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.msglistli {
+    padding: 20px 0;
+    border-bottom: 1px dotted #eee;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.msglistli:hover {
+    background: #eee;
+}
+
+.msglistli .msgImg {
+    display: block;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.msglistli .msgContent {
+    display: inline;
+    margin-top: 5px;
+}
+
+.msgContentBody {
+    height: 110px;
+}
+
+.msgContentTitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.msgContentInfo {
+    font-size: 15px;
+    margin-top: 10px
+}
+
+.msgContentFoot {
+    height: 25px;
+}
+
+.msgContentFootTag {
+    border-radius: 15px;
+    width: 60px;
+    height: 20px;
+    float: left;
+    padding: 0 10px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #b4a078;
+    background-color: #f5f3ef;
+    color: #b19e7a;
+    margin-right: 12px
+}

@@ -1,0 +1,255 @@
+.basicInfo, .evaluateInfo, .healthInfo, .singleInfo {
+    margin-top: 24px;
+}
+
+.block {
+    margin-top: 70px;
+    position: relative;
+}
+
+.block p.title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.analysis .petBox.ilabuladuo {
+    background-image: url(../../goods/ilabuladuo.png);
+}
+
+.analysis .petBox {
+    background: none no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 262px;
+    padding: 22px 26px 22px 0;
+}
+
+.analysis .petBox .petContent {
+    width: 410px;
+    position: relative;
+}
+
+.fr {
+    float: right;
+}
+
+.analysis .petBox .petContent .topContent {
+    background: #fafafa;
+    height: 94px;
+    text-align: center;
+    padding: 22px 0;
+}
+
+.analysis .petBox .petContent .topContent .name {
+    font-size: 20px;
+    color: #333;
+}
+
+.analysis .petBox .petContent .topContent .nickName {
+    font-size: 12px;
+    color: #999;
+    margin-top: 6px;
+}
+
+.analysis .petBox .petContent .bottomContent {
+    height: 124px;
+    padding: 16px 42px 20px;
+}
+
+.fff {
+    background: #fff;
+}
+
+.analysis .petBox .petContent .bottomContent .suitCount {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.analysis .petBox .petContent .bottomContent .info p {
+    width: 50%;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #333;
+}
+
+.fl {
+    float: left;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    zoom: 1;
+}
+
+.analysis .petBox .petContent .bottomContent .info p .name {
+    color: #999;
+    width: 38%;
+    overflow: hidden;
+    letter-spacing: 4px;
+}
+
+.block {
+    margin-top: 70px;
+    position: relative;
+}
+
+.block p.title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.habitInfo .habitBlock {
+    width: 33.33%;
+    font-size: 14px;
+    color: #333;
+}
+
+.habitInfo .habitBlock .habitItem {
+    margin-bottom: 15px;
+}
+
+.habitInfo .habitBlock .habitItem i:first-child {
+    background: #FFDA00;
+}
+
+.habitInfo .habitBlock i {
+    width: 40px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.habitInfo .habitBlock .habitItem i:nth-child(2) {
+    background: #FFCD0C;
+}
+
+.habitInfo .habitBlock .habitItem i:nth-child(3) {
+    background: #FFB00C;
+}
+
+.habitInfo .habitBlock .habitItem i:nth-child(4) {
+    background: #FFA001;
+}
+
+.habitInfo .habitBlock .habitItem i:nth-child(5) {
+    background: #FF6C00;
+}
+
+/* 这个可以动态显示  */
+
+/* .habitInfo .habitBlock .habitItem.l4 i:nth-child(5), .habitInfo .habitBlock .habitItem.l3 i:nth-child(5), .habitInfo .habitBlock .habitItem.l2 i:nth-child(5), .habitInfo .habitBlock .habitItem.l1 i:nth-child(5) {
+    background: #e7e7e7;
+} */
+
+.characterInfo .characterItem {
+    width: 30%;
+    margin-right: 26px;
+}
+
+.characterInfo .characterItem .characterItemBg {
+    height: 130px;
+    background: none no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.characterInfo .characterItem .msg {
+    height: 116px;
+    line-height: 20px;
+    padding: 20px 16px;
+    background: #FAFAFA;
+    font-size: 12px;
+    color: #333;
+}
+
+.characterInfo .characterItem .merit {
+    background-image: url(https://photo.youchongxiong.com/character1.png);
+}
+
+.characterInfo .characterItem .defect {
+    background-image: url(https://photo.youchongxiong.com/character2.png);
+}
+
+.characterInfo .characterItem .comprehensive {
+    background-image: url(https://photo.youchongxiong.com/character3.png);
+}
+
+.popularInfo .petList {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.popularInfo .petItem {
+    width: 100px;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin: 0 84px;
+}
+
+.petBox.ibuoumao {
+    background-image: url(https://photo.youchongxiong.com/ibuoumao.png);
+}
+
+.petBox.ijiafeimao {
+    background-image: url(https://photo.youchongxiong.com/ijiafeimao.png);
+}
+.petBox.iyingduanmao {
+    background-image: url(https://photo.youchongxiong.com/iyingduanmao.png);
+}
+
+.petBox.imeiduanmao {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/imeiduanmao.png);
+}
+
+.petBox.ibage {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ibage.png);
+}
+
+.petBox.ibixiong {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ibixiong.png);
+}
+
+.petBox.ichaiquan {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ichaiquan.png);
+}
+
+.petBox.ifaguodouniuquan {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ifaguodouniuquan.png);
+}
+
+.petBox.ihashiqi {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ihashiqi.png);
+}
+
+.petBox.ijinmao {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ijinmao.png);
+}
+
+.petBox.ikejiquan {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ikejiquan.png);
+}
+
+.petBox.ialasijia {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/ialasijia.png);
+}
+
+.petBox.isamoye {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/isamoye.png);
+}
+
+.petBox.itaidi {
+    background-image: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/analysis/itaidi.png);
+}

@@ -1,0 +1,280 @@
+.show {
+    display: block !important;
+}
+
+.basicInfo, .evaluateInfo, .healthInfo, .singleInfo {
+    margin-top: 24px;
+}
+
+.block p.title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.evaluateHead {
+    border: 1px solid #ececec;
+    padding: 15px 20px;
+}
+
+.evaluateHead .score {
+    width: 112px;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+.evaluateInfo .name {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+.evaluateHead .score .count {
+    font-size: 36px;
+    color: #e1684a;
+    text-align: center;
+}
+
+.stars {
+    font-size: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.star.yellow {
+    background-image: url(https://photo.youchongxiong.com/yellowStar.png);
+}
+
+.star.S3 {
+    background-image: url(https://photo.youchongxiong.com/star3.png);
+}
+
+.star {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(https://photo.youchongxiong.com/grayStar.png) no-repeat center;
+    background-size: cover;
+    margin: 0 1px;
+    vertical-align: middle;
+}
+
+.evaluateHead .evaluateMenu {
+    /* width: 660px; */
+    padding-left: 20px;
+}
+
+.evaluateMenu {
+    font-size: 0;
+}
+
+.evaluateMenu .name {
+    text-align: left;
+    font-size: 12px;
+}
+
+.evaluateInfo .name {
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+}
+
+.evaluateMenu a.cur {
+    border-color: #b4a078;
+    color: #b4a078;
+}
+
+.evaluateMenu a {
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    display: inline-block;
+    margin-right: 14px;
+    padding: 4px 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.evaluateMenu a {
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    display: inline-block;
+    margin-right: 14px;
+    padding: 4px 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.evaluateInfo .evaluateItem {
+    position: relative;
+    padding: 30px 0px 30px 80px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.evaluateInfo .evaluateItem .userInfo {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    font-size: 12px;
+    text-align: center;
+    width: 48px;
+}
+
+.evaluateInfo .evaluateItem .userPhoto {
+    width: 48px;
+    height: 48px;
+    background: none no-repeat center;
+    background-size: cover;
+    border-radius: 48px;
+    margin-bottom: 10px;
+    width: 48px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.evaluateInfo .evaluateItem .time {
+    font-size: 12px;
+    color: #999;
+    padding: 0 18px;
+    margin-top: 7px;
+}
+
+.fr {
+    float: right
+}
+
+.evaluateInfo .evaluateItem .msg {
+    font-size: 14px;
+    color: #333;
+    margin: 12px 0;
+}
+
+.evaluateInfo .evaluateItem .payInfo {
+    height: 18px;
+    line-height: 18px;
+}
+
+.evaluateInfo .evaluateItem .payInfo span:first-child {
+    padding-left: 0;
+}
+
+.evaluateInfo .evaluateItem .payInfo span {
+    font-size: 12px;
+    color: #999;
+    padding: 0 8px;
+}
+
+.evaluateInfo .evaluateItem .reply {
+    padding: 18px 16px;
+    background: #FAFAFA;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #333;
+}
+
+.evaluateInfo .evaluateItem .addEvaluate {
+    margin-top: 20px;
+}
+
+.evaluateInfo .evaluateItem .addEvaluate .aeTitle {
+    color: #617CAE;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.evaluateInfo .evaluateItem .addEvaluate .msg {
+    color: #333;
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.evaluateInfo .evaluateItem .picList {
+    margin-bottom: 8px;
+}
+
+.menuItemBlock .evaluateInfo .evaluateItem .picList>.smallPic.fl {
+    margin-bottom: 10px;
+}
+
+.evaluateInfo .evaluateItem .smallPic {
+    width: 130px;
+    height: 130px;
+    background: none no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+.ui-paging-container {
+    color: #666;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.ui-paging-container li.ui-pager.js-page-first, .ui-paging-container li.ui-pager.js-page-last {
+    display: none;
+}
+
+.ui-paging-container li.ui-pager {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+}
+.ui-paging-container li.ui-pager {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 0px 8px;
+    height: 26px;
+    line-height: 26px;
+}
+.ui-paging-container li {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-left: 5px;
+    color: #666;
+}
+.ui-paging-container ul, .ui-paging-container li {
+    list-style: none;
+}
+
+.ui-paging-container li.ui-pager {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+}
+
+.ui-paging-container li.ui-paging-ellipse {
+    border: none;
+}
+
+.pageTool {
+   text-align: center;
+   padding: 40px 0px 200px 0px;
+}
+
+.pageTool .ui-paging-container li.ui-pager:hover, .pageTool .ui-paging-container li.focus {
+    background-color: #ECECEC;
+    color: #999;
+}
+
+.ui-paging-container li.ui-pager.ui-pager-disabled, .ui-paging-container li.ui-pager.ui-pager-disabled:hover {
+    background: #f6f6f6;
+    color: #ddd;
+}
+
+.ui-paging-container li.ui-pager-disabled, .ui-paging-container li.ui-pager-disabled:hover {
+    background-color: #f6f6f6;
+    cursor: default;
+    border: none;
+    color: #ddd;
+}

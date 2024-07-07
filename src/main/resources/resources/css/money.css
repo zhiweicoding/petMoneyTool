@@ -1,0 +1,235 @@
+.g-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.g-row:after, .g-row:before {
+    display: table;
+}
+
+.f-clearfix:after, .f-clearfix:before, .g-row:after, .g-row:before, .w-button .wrap:after, .w-button .wrap:before, .w-tabs:after, .w-tabs:before, .w-tipMsg:after, .w-tipMsg:before {
+    content: " ";
+}
+
+.g-orderToPayHd {
+    margin-top: 49px;
+    margin-bottom: 20px;
+}
+
+.f-fz18 {
+    font-size: 18px;
+}
+
+.f-lh1 {
+    line-height: 1;
+}
+
+.f-margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.f-lh18 {
+    line-height: 18px;
+}
+
+.f-clearfix:after, .f-clearfix:before {
+    display: table;
+}
+
+.w-text-muted {
+    color: #999 !important;
+}
+
+.f-fz16 {
+    font-size: 16px;
+}
+
+.f-fz18 {
+    font-size: 18px;
+}
+
+.f-txt-red {
+    color: #d4282d !important;
+}
+
+.f-margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.w-panel {
+    background-color: #fff;
+    border: 1px solid #efefef;
+}
+
+.w-panel .hd {
+    height: 42px;
+    padding-left: 21px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #efefef;
+    line-height: 41px;
+    color: #999;
+    font-size: 14px;
+}
+
+.m-payMethods {
+    padding: 10px 0 19px 36px;
+}
+
+.m-payMethod:after, .m-payMethod:before, .m-payMethods:after, .m-payMethods:before {
+    content: " ";
+    display: table;
+}
+
+.m-payMethods .m-payMethod:first-child {
+    margin-left: 0;
+}
+
+.m-payMethods .m-payMethod:first-child {
+    margin-left: 0;
+}
+
+.m-payMethod-hd:first-child {
+    margin-left: 0;
+}
+
+.m-payMethods .m-payMethod {
+    float: left;
+    margin-left: 10px;
+}
+
+.m-payMethod-hd {
+    margin-left: 10px;
+    width: 190px;
+    height: 90px;
+    line-height: 87px;
+}
+
+.m-payMethod {
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.m-bankList, .m-payMethod .img, .m-payMethod .radio, .m-payMethod-hd, .w-errorMsg, .w-errorMsg .icon, .w-errorMsg .text, .w-tabs .item {
+    float: left;
+}
+
+.f-disabledmask, .m-payMethod-hd, .m-wrap {
+    overflow: hidden;
+}
+
+.m-bankList, .m-payMethod .img, .m-payMethod .radio, .m-payMethod-hd, .w-errorMsg, .w-errorMsg .icon, .w-errorMsg .text, .w-tabs .item {
+    float: left;
+}
+
+.m-payMethod-hd .radio, .w-errorMsg .icon {
+    margin-right: 10px;
+}
+
+input:checked, .widgetGold-radio-sel {
+    background-position: 0 -187px;
+    height: 15px;
+    width: 15px;
+}
+
+.w-radio-money.s-gold-new > input, .w-radio-money.s-gold-help > input, .w-radio-money > input {
+    width: 15px;
+    height: 15px;
+}
+
+input:checked, .widget-radio-sel {
+    background-position: 0 -112px;
+    height: 15px;
+    width: 15px;
+}
+
+.f-ib, .w-button, .w-chkbox.s-gold-help > input, .w-chkbox > input, .w-icon-bank, .w-icon-normal, .w-icon-payMethod, .w-icon-widget, .w-icon-widgetGold, .w-linkicon, .w-linkicon .txt, .w-radio-money.s-gold-new > input, .w-radio-money.s-gold > input, .w-radio-money > input, .w-tipMsg-fail .icon, .w-tipMsg-success .icon, .w-txticon, .w-txticon .txt {
+    display: -moz-inline-stack;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.w-chkbox > input, .w-radio-money > input {
+    -webkit-appearance: none;
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle !important;
+    border: 0;
+}
+
+.m-payMethod-hd .w-icon-payMethod, .w-tabs .r-btn > i, .w-tabs .r-btn > span {
+    vertical-align: middle;
+}
+
+.payMethod-alipay {
+    background-position: 0 0;
+    height: 47px;
+    width: 133px;
+}
+
+.w-icon-payMethod {
+    background-image: url(https://photo.youchongxiong.com/payMethod.png);
+    background-image: -webkit-image-set(url(https://photo.youchongxiong.com/payMethod.png) 1x, url(https://photo.youchongxiong.com/payMethodX2.png) 2x);
+    background-repeat: no-repeat;
+}
+
+.m-payMethod .icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.icon-normal-spec-arrow {
+    background-position: 0 -28px;
+    height: 12px;
+    width: 12px;
+}
+
+.w-icon-normal, .w-tipMsg-fail .icon, .w-tipMsg-success .icon {
+    background-image: url(https://photo.youchongxiong.com/widgetGold.png);
+    background-repeat: no-repeat;
+}
+
+.m-payMethod:after, .m-payMethod:before, .m-payMethods:after, .m-payMethods:before {
+    content: " ";
+    display: table;
+}
+
+.backgroud-white {
+    background-color: white
+}
+
+.payMethod-weixin {
+    background-position: 0 -388px;
+    height: 39px;
+    width: 134px;
+}
+
+.payMethod-epay {
+    background-position: 0 -158px;
+    height: 45px;
+    width: 133px;
+}
+
+.payMethod-savings {
+    background-position: 0 -213px;
+    height: 36px;
+    width: 127px;
+}
+
+.payMethod-credit {
+    background-position: 0 -57px;
+    height: 37px;
+    width: 133px;
+}
+
+.w-button-primary:hover {
+    color: white
+}

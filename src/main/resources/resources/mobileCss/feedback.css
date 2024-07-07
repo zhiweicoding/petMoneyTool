@@ -1,0 +1,120 @@
+.container {
+    background: #f4f4f4;
+    min-height: 100%;
+}
+
+input {
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fb-type {
+    height: 52px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fb-type .type-label {
+    height: 18px;
+    flex: 1;
+    color: #333;
+    font-size: 14px;
+}
+
+.fb-type .type-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.fb-body {
+    width: 100%;
+    background: #fff;
+    height: 187px;
+    padding: 9px 15px 32px 15px;
+}
+
+.fb-body .content {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.fb-body .text-count {
+    padding-top: 8.5px;
+    line-height: 15px;
+    float: right;
+    color: #666;
+    font-size: 12px;
+}
+
+.fb-mobile {
+    height: 81px;
+    width: 100%;
+}
+
+.fb-mobile .label {
+    height: 29px;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 5.5px;
+    color: #7f7f7f;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 16.5px;
+}
+
+.fb-mobile .mobile-box {
+    height: 52px;
+    width: 100%;
+    color: #333;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-width: 90%;
+}
+
+.fb-mobile .mobile {
+    position: absolute;
+    top: 13.5px;
+    left: 15px;
+    height: 25px;
+    width: 100%;
+    color: #333;
+    line-height: 25px;
+    font-size: 12px;
+
+}
+
+.clear-icon {
+    position: absolute;
+    top: 21.5px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+}
+
+.fb-btn {
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    background: #b4282d;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+}

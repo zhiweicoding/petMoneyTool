@@ -1,0 +1,172 @@
+body,
+button,
+input,
+select,
+textarea,
+code {
+    font-family: "Heiti SC", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", verdana;
+}
+
+.backgroud-white {
+    background-color: white
+}
+
+.g-sub {
+    border: none;
+}
+
+.g-sub {
+    width: 180px;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.g-main, .g-sub {
+    position: relative;
+}
+
+.g-main, .g-sub {
+    margin-top: 20px;
+    float: left;
+}
+
+.m-help .help {
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.m-help .help .title {
+    height: 43px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 43px;
+}
+
+.m-help .help .title a {
+    display: block;
+    width: 100%;
+    height: 43px;
+}
+
+.m-help .on .title > .arrow-up-hollow {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.m-help .help .title > .arrow-up-hollow {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.m-help .on {
+    background-color: #f5f5f5;
+}
+
+.m-help .help {
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.arrow-up-hollow {
+    background-position: 0 -728px;
+    height: 5px;
+    width: 11px;
+}
+
+.m-dropdown .wrap:before, .w-dropdown .dropdownMenu:before, .w-icon-arrow {
+    background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/arrow-s64c31cc7d5-e93a0c2d63.png);
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/arrow-s64c31cc7d5-e93a0c2d63.png) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/arrow-scd0471da67-428139f71e.png) 2x);
+    background-repeat: no-repeat;
+}
+
+.m-help .on .help-cnt {
+    display: block;
+    background-color: #fff;
+}
+
+.m-help .help .help-cnt {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.m-help .help .list-item a {
+    margin: 20px 0;
+    line-height: 1;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.m-help .cur {
+    color: #b4a078;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.g-main {
+    width: 890px;
+    margin-left: 20px;
+    overflow: hidden;
+    z-index: 1;
+    padding-bottom: 80px;
+}
+
+.g-main, .g-sub {
+    position: relative;
+}
+
+.g-main, .g-sub {
+    margin-top: 20px;
+    float: left;
+}
+
+.m-helpCon {
+    width: 890px;
+    border: 1px solid #e8e8e8;
+    padding: 25px 40px;
+    text-align: justify;
+}
+
+.m-helpCon .title {
+    font-size: 18px;
+    border-bottom: 1px dashed #e8e8e8;
+    padding-bottom: 25px;
+}
+
+.m-helpCon .content {
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.m-helpCon .indent p {
+    text-indent: 29px;
+    margin-bottom: 0;
+    line-height: 23px;
+}
+
+.m-helpCon .content p {
+    margin-bottom: 15px;
+}
+
+strong, b {
+    font-weight: bold;
+}

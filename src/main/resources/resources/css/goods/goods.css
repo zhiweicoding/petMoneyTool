@@ -1,0 +1,57 @@
+.header-part-body {
+    margin-top: 20px;
+}
+
+.health-content {
+    margin-top: 30px;
+    padding: 15px 0px 0px;
+    background: url(http://j2.58cdn.com.cn/ershouxc/pc/revision/detail/20171218/tableBg.png?V1) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.secTitle {
+    font-size: 18px;
+    color: #677089;
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #f7f8fb;
+}
+
+table thead td {
+    color: #69728B !important;
+}
+
+table tr td:nth-child(2) {
+    width: 144px;
+}
+
+table tr td:nth-child(3) {
+    width: 144px;
+}
+
+table tr td:last-child {
+    width: 320px;
+    color: #617CAE;
+}
+
+table tr td:first-child {
+    width: 128px;
+}
+
+table td {
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #eee;
+}

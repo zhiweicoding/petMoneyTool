@@ -2,6 +2,208 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="plus.zhiwei.petmoneytool.dao.AnyDao">
 
+    <resultMap id="userMapperBean" type="plus.zhiwei.petmoneytool.bean.UserMapperBean">
+        <id column="user_id" property="userId"/>
+        <result column="open_id" property="openId"/>
+        <result column="nick_name" property="nickName"/>
+        <result column="user_mobile" property="userMobile"/>
+        <result column="avatar_url" property="avatarUrl"/>
+        <result column="union_id" property="unionId"/>
+        <result column="province" property="province"/>
+        <result column="city" property="city"/>
+        <result column="country" property="country"/>
+        <result column="gender" property="gender"/>
+        <result column="language" property="language"/>
+        <result column="is_delete" property="isDelete"/>
+        <result column="type_id" property="typeId"/>
+        <result column="password" property="password"/>
+        <result column="notice_id" property="noticeId"/>
+        <result column="zhifubao_id" property="zhifubaoId"/>
+        <result column="real_name" property="realName"/>
+        <result column="user_type" property="userType"/>
+        <result column="remark_msg" property="remarkMsg"/>
+        <result column="is_member" property="isMember"/>
+        <result column="create_time_str" property="createTimeStr"/>
+        <result column="create_time" property="createTime" jdbcType="DATE" javaType="java.util.Date"/>
+    </resultMap>
 
+    <resultMap id="protectMapperBean" type="plus.zhiwei.petmoneytool.bean.ProtectMapperBean">
+        <id column="protect_id" property="protectId"/>
+        <result column="shop_id" property="shopId"/>
+        <result column="user_id" property="userId"/>
+        <result column="good_id" property="goodId"/>
+        <result column="vaccine_first_name" property="vaccineFirstName"/>
+        <result column="vaccine_second_name" property="vaccineSecondName"/>
+        <result column="vaccine_third_name" property="vaccineThirdName"/>
+        <result column="insect_name" property="insectName"/>
+        <result column="taobao_nickname" property="taobaoNickname"/>
+        <result column="zhifubao" property="zhifubao"/>
+        <result column="is_protect" property="isProtect"/>
+        <result column="symbol_id" property="symbolId"/>
+        <result column="symbol_name" property="symbolName"/>
+        <result column="pet_age" property="petAge"/>
+        <result column="pet_price" property="petPrice"/>
+        <result column="remark_msg" property="remarkMsg"/>
+        <result column="sell_id" property="sellId"/>
+        <result column="pet_sex" property="petSex"/>
+        <result column="birthday" property="birthday" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="birthday_str" property="birthdayStr"/>
+        <result column="protect_type" property="protectType"/>
+        <result column="type_id" property="typeId"/>
+        <result column="is_free" property="isFree"/>
+        <result column="is_send_opinion" property="isSendOpinion"/>
+        <result column="vaccine_first_date_time_str" property="vaccineFirstDateTimeStr"/>
+        <result column="vaccine_second_date_time_str" property="vaccineSecondDateTimeStr"/>
+        <result column="vaccine_third_date_time_str" property="vaccineThirdDateTimeStr"/>
+        <result column="insect_date_time_str" property="insectDateTimeStr"/>
+        <result column="create_time_str" property="createTimeStr"/>
+        <result column="protect_time_str" property="protectTimeStr"/>
+        <result column="sign_img" property="signImg"/>
+        <result column="vaccine_first_date_time" property="vaccineFirstDateTime" jdbcType="DATE"
+                javaType="java.util.Date"/>
+        <result column="vaccine_second_date_time" property="vaccineSecondDateTime" jdbcType="DATE"
+                javaType="java.util.Date"/>
+        <result column="vaccine_third_date_time" property="vaccineThirdDateTime" jdbcType="DATE"
+                javaType="java.util.Date"/>
+        <result column="protect_time" property="protectTime" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="insect_date_time" property="insectDateTime" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="create_time" property="createTime" jdbcType="DATE" javaType="java.util.Date"/>
+    </resultMap>
 
+    <resultMap id="shopMapperBean" type="plus.zhiwei.petmoneytool.bean.ShopMapperBean">
+        <id column="shop_id" property="shopId"/>
+        <result column="shop_name" property="shopName"/>
+        <result column="shop_desc" property="shopDesc"/>
+        <result column="shop_icon" property="shopIcon"/>
+        <result column="shop_location" property="shopLocation"/>
+        <result column="shop_phone" property="shopPhone"/>
+        <result column="shop_master_name" property="shopMasterName"/>
+        <result column="shop_master_phone" property="shopMasterPhone"/>
+        <result column="shop_lat" property="shopLat"/>
+        <result column="shop_lon" property="shopLon"/>
+        <result column="sign_photo" property="signPhoto"/>
+        <result column="shop_province_id" property="shopProvinceId"/>
+        <result column="shop_city_id" property="shopCityId"/>
+        <result column="shop_district_id" property="shopDistrictId"/>
+        <result column="create_time_str" property="createTimeStr"/>
+        <result column="create_time" property="createTime" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="is_delete" property="isDelete"/>
+        <result column="admin_id" property="adminId"/>
+        <result column="province_name" property="provinceName"/>
+        <result column="city_name" property="cityName"/>
+        <result column="district_name" property="districtName"/>
+        <result column="open_id" property="openId"/>
+        <result column="union_id" property="unionId"/>
+        <result column="license" property="license"/>
+        <result column="grade" property="grade"/>
+        <result column="our_license" property="ourLicense"/>
+        <result column="is_simulation" property="isSimulation"/>
+    </resultMap>
+
+    <sql id="Protect_Base_Column_List">
+        t.protect_id,
+        t.shop_id,
+        t.user_id,
+        t.good_id,
+        t.vaccine_first_name,
+        t.vaccine_second_name,
+        t.vaccine_third_name,
+        t.vaccine_first_date_time,
+        t.vaccine_second_date_time,
+        t.vaccine_third_date_time,
+        t.insect_name,
+        t.insect_date_time,
+        t.taobao_nickname,
+        t.zhifubao,
+        t.is_protect,
+        t.protect_time,
+        t.symbol_id,
+        t.symbol_name,
+        t.pet_age,
+        t.pet_price,
+        t.remark_msg,
+        t.create_time,
+        t.sell_id,
+        t.pet_sex,
+        t.birthday,
+        t.protect_type,
+        t.type_id,
+        t.is_free,
+        t.is_send_opinion,
+        t.sign_img,
+        date_format(t.create_time, '%Y-%c-%d') create_time_str,
+        date_format(t.insect_date_time, '%Y-%c-%d') insect_date_time_str,
+        date_format(t.protect_time, '%Y-%c-%d %H:%i') protect_time_str,
+        date_format(t.vaccine_first_date_time, '%Y-%c-%d') vaccine_first_date_time_str,
+        date_format(t.vaccine_second_date_time, '%Y-%c-%d') vaccine_second_date_time_str,
+        date_format(t.vaccine_third_date_time, '%Y-%c-%d') vaccine_third_date_time_str,
+        date_format(t.birthday, '%Y-%c-%d') birthday_str
+    </sql>
+
+    <sql id="User_Base_Column_List">
+        t.user_id,
+        t.open_id,
+        t.nick_name,
+        t.user_mobile,
+        t.avatar_url,
+        t.union_id,
+        t.province,
+        t.city,
+        t.country,
+        t.gender,
+        t.language,
+        t.is_delete,
+        t.create_time,
+        t.type_id,
+        t.password,
+        t.notice_id,
+        t.zhifubao_id,
+        t.real_name,
+        t.user_type,
+        t.remark_msg,
+        date_format(t.create_time, '%Y年%c月%d日 %T') create_time_str
+    </sql>
+
+    <select id="queryUserByOpenId" resultMap="userMapperBean"  parameterType="java.lang.String">
+        SELECT
+        <include refid="User_Base_Column_List"/>
+        FROM t_user t
+        <where>
+            and t.is_delete=0
+            and t.open_id=#{openId}
+        </where>
+        order by t.is_delete desc,t.create_time desc
+    </select>
+
+    <select id="queryArrayByPhone" resultMap="protectMapperBean" parameterType="java.lang.String">
+        SELECT
+        <include refid="Protect_Base_Column_List"/>
+        FROM t_protect t
+        WHERE t.remark_msg like CONCAT('%',#{phone},'%')
+        and t.is_delete=0
+        and t.is_protect=1
+        order by t.protect_time desc
+    </select>
+
+    <select id="queryArrayByUserId" resultMap="protectMapperBean" parameterType="java.lang.String">
+        SELECT
+        <include refid="Protect_Base_Column_List"/>
+        FROM t_protect t
+        WHERE t.user_id = #{userId}
+        and t.is_protect=1
+        order by t.protect_time desc
+    </select>
+
+    <select id="queryShop" resultMap="shopMapperBean" parameterType="java.lang.String">
+        select t.*,
+               date_format(t.create_time, '%Y-%c-%d %T') create_time_str,
+               tp.province_name,
+               tc.city_name,
+               td.district_name
+        from t_shop t
+                 left join t_province tp on tp.province_code = t.shop_province_id
+                 left join t_city tc on tc.city_code = t.shop_city_id
+                 left join t_district td on td.district_code = t.shop_district_id
+        where t.shop_id = #{shopId}
+    </select>
 </mapper>

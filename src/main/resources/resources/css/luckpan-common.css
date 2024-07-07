@@ -1,0 +1,38 @@
+@charset "utf-8";
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body,
+button,
+input,
+ul,
+li,
+p,
+div,
+i,
+span,
+a,
+header,
+article,
+section,
+iframe,
+footer,
+b,
+address,
+aside {
+    font-family: 微软雅黑, serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    word-wrap: break-word;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+}  

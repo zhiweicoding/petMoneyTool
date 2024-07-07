@@ -1,0 +1,93 @@
+.orders {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.order {
+    margin-top: 10px;
+    background: #fff;
+    border-bottom: #e1e1e1 1px solid;
+}
+
+.order .h {
+    height: 41.65px;
+    line-height: 41.65px;
+    padding-top: 5px;
+    margin-left: 15.625px;
+    padding-right: 15.625px;
+}
+
+.order .h .l {
+    float: left;
+    font-size: 12px;
+    flex-direction: row;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.buyerImg {
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+}
+
+.buyerDetailBody {
+    font-size: 13px;
+    width: 100px;
+    margin-left: 7.5px;
+    color: #333;
+}
+
+.order .h .r {
+    float: right;
+    font-size: 12px;
+    color: #888;
+}
+
+.order .goods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+    height: 175px;
+    width: 100%;
+    margin-left: 15.625px;
+}
+
+.order .goodsItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+    width: 100%;
+    margin-left: 15.625px;
+}
+
+.order .goods .img {
+    height: 174px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: #f4f4f4;
+}
+
+.order .b {
+    height: 41.5px;
+    line-height: 41.5px;
+    margin-left: 15.625px;
+    padding-right: 15.625px;
+}
+
+.order .b .l {
+    float: left;
+    font-size: 12px;
+    color: #888;
+}
+
+.order .b .r {
+    float: right;
+    font-size: 12px;
+    color: #888;
+}

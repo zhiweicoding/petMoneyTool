@@ -1,0 +1,29 @@
+.circle-float {
+    position: fixed;
+    z-index: 888;
+    left: 87%;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    background: #fff;
+    padding: 4px;
+    border: 0.5px solid #c1c1c1;
+    top: 76%;
+    right: 5%;
+}
+
+.circle-float-kefu {
+    position: fixed;
+    z-index: 888;
+    left: 87%;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    background: #fff;
+    padding: 4px;
+    border: 0.5px solid #c1c1c1;
+    top: 68%;
+    right: 5%;
+}

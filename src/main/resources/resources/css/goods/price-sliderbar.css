@@ -1,0 +1,146 @@
+ul.price-adjustment {
+    width: 100%;
+    margin: 25px auto 15px
+}
+
+ul.price-adjustment li {
+    font-size: 12px;
+    line-height: 23px;
+    position: relative;
+    height: 23px;
+    color: #666;
+    list-style: none
+}
+
+ul.price-adjustment li .right {
+    float: right;
+    font-family: iconfont !important
+}
+
+ul.price-adjustment li .adjust-price-wrap {
+    font-size: 16px;
+    position: absolute;
+    right: 0
+}
+
+ul.price-adjustment li .adjust-price {
+    font-size: 18px;
+    color: #fd521d;
+    margin-right: 5px
+}
+
+ul.price-adjustment li .iconfont {
+    color: #f90;
+    margin-right: 5px;
+    font-size: 12px
+}
+
+ul.price-adjustment li .salePrice {
+    color: #fd521d
+}
+
+ul.price-adjustment li .wan {
+    font-size: 16px
+}
+
+ul.price-adjustment li .detail-warning,
+ul.price-adjustment li .err-info,
+ul.price-adjustment li .reasonable-price {
+    display: none
+}
+
+ul.price-adjustment li .err-info {
+    color: #666
+}
+
+ul.price-adjustment .slidebar {
+    margin: 10px 0 0
+}
+
+ul.price-adjustment .slidebar .scale-panel {
+    color: #999;
+    width: 100%;
+    position: absolute;
+    line-height: 18px;
+    left: 0;
+    top: 0
+}
+
+ul.price-adjustment .slidebar .scale-panel .scale {
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-color: #f4f6f8;
+    border: 1px solid #eceef0;
+    border-left: none;
+    border-right: none;
+    height: 7px;
+    position: relative;
+    font-size: 0;
+    border-radius: 3px;
+    margin: 0 6px
+}
+
+ul.price-adjustment .slidebar .scale-panel .scale .slide-btn {
+    width: 32px;
+    position: absolute;
+    right: -16px;
+    top: -14px;
+    max-width: 32px
+}
+
+ul.price-adjustment .slidebar .scale-panel .scale .step {
+    background-repeat: repeat-x;
+    background-color: #4ba4fc;
+    border: 1px solid #3796f4;
+    border-left: none;
+    border-right: none;
+    width: 0;
+    height: 7px;
+    position: relative;
+    overflow: visible !important;
+    z-index: 2
+}
+
+ul.price-adjustment .slidebar .scale-panel .low-price {
+    position: absolute;
+    left: 0;
+    margin-left: 6px
+}
+
+ul.price-adjustment .slidebar .scale-panel .center-price {
+    position: absolute;
+    left: 50%
+}
+
+ul.price-adjustment .slidebar .scale-panel .center-price .center-price-info {
+    margin-left: -50%
+}
+
+ul.price-adjustment .slidebar .scale-panel .car-price {
+    position: absolute;
+    right: 6px
+}
+
+ul.price-adjustment .slidebar .scale-panel .car-price .car-price-info,
+ul.price-adjustment .slidebar .scale-panel .car-price .car-price-txt,
+ul.price-adjustment .slidebar .scale-panel .car-price .price-line {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    margin-right: 3px
+}
+
+ul.price-adjustment .slidebar .scale-panel .price-line {
+    color: #d2d2d2
+}
+
+ul.price-adjustment .slidebar .scale-panel .car-price-info,
+ul.price-adjustment .slidebar .scale-panel .car-price-txt,
+ul.price-adjustment .slidebar .scale-panel .center-price-info,
+ul.price-adjustment .slidebar .scale-panel .low-price {
+    color: #666
+}
+
+ul.price-adjustment .msg-wrap {
+    float: left
+}

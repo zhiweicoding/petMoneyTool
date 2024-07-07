@@ -1,0 +1,541 @@
+li.award {
+    margin: 10px 20px 10px 0
+}
+
+li.award {
+    width: 300px!important;
+    height: 410px!important
+}
+
+li.award .price i {
+    font-size: 22px
+}
+
+li.award .price em {
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 400
+}
+
+li.award .price .yen {
+    font-size: 40px
+}
+
+li.award .price .cent {
+    font-size: 22px
+}
+
+li.award .price .plus {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 24px
+}
+
+li.award .orig-price, li.award .sold-num {
+    color: #fff;
+    font-size: 12px
+}
+
+li.award .sold-num em {
+    font-size: 14px;
+    color: #fff
+}
+
+li.award h3.nowrap, li.award h4 .desc {
+    height: 20px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis
+}
+
+li.award .benefit {
+    height: 17px;
+    line-height: 17px;
+    background: #ffb369
+}
+
+li.award .icon-jp {
+    background: #cb7cf8
+}
+
+li.award .icon-my {
+    background: #7fb9fa
+}
+
+li.award .icon-xd {
+    background: #4cb251
+}
+
+li.award .icon-jk {
+    background: #FF6F2A
+}
+
+li.award .icon-ys {
+    background: #f97499
+}
+
+li.award .item-pic {
+    margin: 0 auto 0 -1px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+li.award .dock {
+    _float: left;
+    overflow: hidden;
+    margin-top: 4px
+}
+
+li.award .dock .dock-price {
+    height: 18px;
+    margin-bottom: 3px;
+    overflow: hidden
+}
+
+li.award .orig-price {
+    position: static;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top
+}
+
+li.award .orig-price-limit {
+    text-decoration: inherit
+}
+
+li.award .prompt {
+    height: 20px;
+    overflow: hidden
+}
+
+li.award .sold-num {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 20px;
+    padding: 0 6px;
+    background-color: rgba(0, 0, 0, .1);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#19000000', endColorstr='#19000000');
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box
+}
+
+:root li.award .sold-num {
+    filter: none
+}
+
+li.award {
+    width: 290px!important;
+    height: 400px!important
+}
+
+li.award h3 {
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0;
+    color: #999;
+    height: 34px
+}
+
+li.award h3 .flag {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box
+}
+
+li.award h3 .H {
+    color: #eb5021
+}
+
+li.award h4 {
+    margin: 0 0 2px 10px;
+    *zoom: 1
+}
+
+li.award h4:after, li.award h4:before {
+    content: '';
+    display: table
+}
+
+li.award h4:after {
+    clear: both
+}
+
+li.award h4 .desc {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: left;
+}
+
+li.award h4 .desc .acticon {
+    height: 16px;
+    width: auto;
+    vertical-align: top
+}
+
+li.award h4 .coupon {
+    float: right;
+    line-height: 17px;
+    color: #fff;
+    background-color: #eb5021;
+    padding: 0 0 0 6px;
+    border-right: solid 8px #FF9DB8
+}
+
+li.award h4 .coupon i {
+    font-family: ju-font;
+    font-style: normal;
+    font-size: 15px
+}
+
+li.award h4 .coupon-hongbao {
+    border-right: none;
+    padding-right: 6px
+}
+
+li.award h3, li.award h4 {
+    _width: 268px
+}
+
+li.award .link-box {
+    height: 408px
+}
+
+li.award .link-box {
+    height: 398px
+}
+
+li.award .item-pic {
+    margin-bottom: 10px
+}
+
+li.award .item-pic {
+    width: 290px;
+    height: 290px
+}
+
+li.award .price-point {
+    display: inline-block;
+    font-weight: 400;
+    color: #eb5021
+}
+
+li.award .price-point i {
+    float: left;
+    font-family: ju-font;
+    font-style: normal;
+    margin: 1px 1px 0 -1px
+}
+
+li.award .item-prices {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #eb5021
+}
+
+li.award .item-prices .item-info {
+    height: 50px;
+    overflow: hidden;
+    padding: 0 50px 0 5px
+}
+
+li.award .item-prices .item-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 100%;
+    padding-left: 10px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #eb5021;
+    background: url(https://photo.youchongxiong.com/qiang.png) no-repeat
+}
+
+li.award .item-prices .item-link .blank {
+    line-height: 18px;
+    padding-top: 7px;
+    font-size: 14px
+}
+
+li.award .item-prices .item-link i {
+    font-family: ju-font;
+    font-style: normal;
+    font-size: 52px;
+    position: absolute;
+    left: -21px;
+    top: -1px;
+    width: 52px;
+    line-height: 52px;
+    color: #eb5021
+}
+
+li.award .item-prices .price i {
+    margin-right: 3px
+}
+
+li.award .price {
+    margin-right: 8px;
+    font-size: 0;
+    color: #fff;
+    *zoom: 1
+}
+
+li.award .price:after, li.award .price:before {
+    content: '';
+    display: table
+}
+
+li.award .price:after {
+    clear: both
+}
+
+li.award .price em, li.award .price i, li.award .price span {
+    display: inline-block
+}
+
+li.award .price .tm-icon {
+    font-family: ju-font;
+    font-style: normal;
+    font-size: 32px;
+    margin-left: -3px;
+    vertical-align: top
+}
+
+li.award .price .small {
+    margin-top: 6px
+}
+
+li.award .benefit {
+    padding: 0 6px;
+    -webkit-border-radius: 10px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 10px;
+    -moz-background-clip: padding;
+    border-radius: 10px;
+    background-clip: padding-box
+}
+
+li.award .icon-discount {
+    background: #FFE0A1;
+    color: #D67A00;
+    padding: 0 9px
+}
+
+li.award .fire {
+    font-family: ju-font;
+    font-style: normal;
+    color: #eb5021;
+    font-size: 14px;
+    vertical-align: bottom;
+    *vertical-align: top;
+    line-height: 21px
+}
+
+li.award .biz-mark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    background-color: #eb5021;
+    width: 64px;
+    height: 24px
+}
+
+li.award .soldout-mask {
+    display: none
+}
+
+li.award .sold-fire {
+    position: absolute;
+    right: 0;
+    bottom: 107px;
+    width: 169px;
+    height: 48px
+}
+
+li.award .hover .hover-, li.award .hover .hover-avil {
+    border-color: #eb5021;
+    outline: #eb5021 solid 2px
+}
+
+li.award .hover .hover-blank {
+    border-color: #26a96d;
+    outline: #26a96d solid 2px
+}
+
+li.award .hover .hover-timeout {
+    border-color: #9b9b9b;
+    outline: #9b9b9b solid 2px
+}
+
+li.award .exppresale .expandmoney {
+    display: none;
+    line-height: 20px;
+    margin-right: 5px;
+    color: #fff
+}
+
+li.award .exppresale .expandmoney em {
+    font-weight: 700;
+    font-size: 14px
+}
+
+li.award .exppresale .item-prices .item-info {
+    padding-right: 85px
+}
+
+li.award .exppresale .item-link {
+    width: 80px;
+    height: 45px;
+    padding-top: 5px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-size: 14px
+}
+
+li.award .status-blank .item-prices {
+    background-color: #26a96d
+}
+
+li.award .status-blank .item-link .arrow {
+    border-color: #26a96d transparent
+}
+
+li.award .status-soldout .soldout-mask, li.award .status-timeout .soldout-mask {
+    display: block;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+    bottom: 100px;
+    width: 90px;
+    height: 90px
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* project id 573146 */
+    src: url('//at.alicdn.com/t/font_573146_xwaxmryr2ebi6bt9.eot');
+    src: url('//at.alicdn.com/t/font_573146_xwaxmryr2ebi6bt9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_573146_xwaxmryr2ebi6bt9.woff') format('woff'), url('//at.alicdn.com/t/font_573146_xwaxmryr2ebi6bt9.ttf') format('truetype'), url('//at.alicdn.com/t/font_573146_xwaxmryr2ebi6bt9.svg#iconfont') format('svg');
+}
+
+.floating_ck {
+    position: fixed;
+    right: 1px;
+    top: 40%;
+    z-index: 999;
+}
+
+.floating_ck dl dd {
+    position: relative;
+    width: 70px;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: solid 1px #eaeaea;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    cursor: pointer;
+}
+
+.floating_ck dl dd:hover {
+    background-color: #fff;
+    border-bottom: solid 1px #eaeaea;
+}
+
+.floating_ck dl dd:hover .floating_left {
+    display: block;
+}
+
+.floating_ck dd span {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 8px auto 0;
+    /* padding-top: 54px; */
+}
+
+.floating_left {
+    position: absolute;
+    left: -160px;
+    top: 0px;
+    width: 160px;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: solid 1px #eaeaea;
+    display: none;
+    box-shadow: 0 0 5px #eaeaea;
+}
+
+.floating_left a {
+    color: #fff;
+    line-height: 80px;
+}
+
+.floating_ewm {
+    height: 210px;
+    top: -240px;
+    margin-top: 110px;
+}
+
+.floating_ewm i {
+    background-image: url(https://photo.youchongxiong.com/gongzhonghao-small-adfadfaf.jpg);
+    display: block;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.floating_ewm p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.floating_ewm .qrcord_p01 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.floating_ewm .qrcord_p02 {
+    font-size: 18px;
+}
+
+.floating_ck img {
+    margin-top: 10px;
+}
+
+.yx-cp-m-cartEnter .icon-yxtop-badge, .yx-cp-m-cartEnter .icon-yxtop-badge-l {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1;
+}

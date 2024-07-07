@@ -3,6 +3,9 @@ package plus.zhiwei.petmoneytool.dao;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Component;
+import plus.zhiwei.petmoneytool.bean.ProtectMapperBean;
+import plus.zhiwei.petmoneytool.bean.ShopMapperBean;
+import plus.zhiwei.petmoneytool.bean.UserMapperBean;
 
 import java.util.List;
 import java.util.Map;
@@ -23,6 +26,23 @@ public interface AnyDao {
 
     @Select("select t.good_title,t.good_brief,t.list_pic_url from t_good t where t.good_id=#{goodId}")
     Map<String, Object> queryGood(@Param("goodId") String goodId);
+
+    UserMapperBean queryUserByOpenId(@Param("openId") String openId);
+
+    @Select("select" +
+            " t.*,date_format(t.create_time, '%Y年%c月%d日 %T') as create_time_str " +
+            " from pet.t_user t" +
+            " where t.union_id=#{unionid} and t.is_delete=0 " +
+            " and t.type_id = 'Tdfd0aaa653484560b884026746f012f3'")
+    List<UserMapperBean> qWxByUnion(@Param("unionid") String unionid);
+
+    List<ProtectMapperBean> queryArrayByPhone(@Param("phone") String phone);
+
+    List<ProtectMapperBean> queryArrayByUserId(@Param("userId") String userId);
+
+    ShopMapperBean queryShop(@Param("shopId") String shopId);
+
+
 }
 
 

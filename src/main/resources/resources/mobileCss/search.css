@@ -1,0 +1,335 @@
+.container{
+    min-height: 100%;
+    background-color: #f4f4f4;
+}
+
+input {
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.search-header{
+    width: 100%;
+    height: 45.5px;
+    display: flex;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    padding: 0 15.625px;
+    font-size: 14.5px;
+    color: #333;
+}
+
+.search-header .input-box{
+    position: relative;
+    margin-top: 8px;
+    float: left;
+    width: 0;
+    flex: 1;
+    height: 29.5px;
+    line-height: 29.5px;
+    padding: 0 10px;
+    background: #f4f4f4;
+}
+
+.search-header .icon{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 15.5px;
+    height: 15.5px;
+}
+
+.search-header .del{
+    position: absolute;
+    top: 1.5px;
+    right: 5px;
+    width: 26.5px;
+    height: 26.5px;
+    z-index: 10;
+}
+
+.search-header .keywrod{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 253px;
+    height: 29.5px;
+    padding-left: 15px;
+}
+
+.search-header .right{
+    margin-top: 12px;
+    margin-left: 15.5px;
+    margin-right: 3px;
+    width: 29px;
+    height: 21.5px;
+    line-height: 21.5px;
+    float: right;
+}
+
+.no-search{
+    height: auto;
+    overflow: hidden;
+    margin-top: 25.5px;
+}
+
+.serach-keywords{
+    background: #fff;
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.serach-keywords .h{
+    padding: 0 15.625px;
+    height: 46.5px;
+    line-height: 46.5px;
+    width: 100%;
+    color: #999;
+    font-size: 14.5px;
+}
+
+.serach-keywords .title{
+    display: block;
+    width: 60px;
+    float: left;
+}
+
+.serach-keywords .icon{
+    margin-top: 9.5px;
+    float: right;
+    display: block;
+    margin-left: 255.5px;
+    height: 27.5px;
+    width: 27.5px;
+}
+
+.serach-keywords .b{
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 15.625px;
+}
+
+.serach-keywords .item{
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    padding:0 7.5px;
+    border: 1px solid #999;
+    margin: 0 15.625px 15.625px 0;
+    font-size: 12px;
+    color: #333;
+}
+
+.serach-keywords .item.active{
+    color: #b4282d;
+    border: 1px solid #b4282d;
+}
+
+.shelper-list{
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 15.625px;
+}
+
+.shelper-list .item{
+    height: 46.5px;
+    width: 343.75px;
+    line-height: 46.5px;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+.sort{
+    position: fixed;
+    top: 45.5px;
+    background: #fff;
+    width: 100%;
+    height: 39px;
+}
+
+.sort-box{
+    background: #fff;
+    width: 100%;
+    height: 39px;
+    overflow: hidden;
+    padding: 0 15px;
+    display: flex;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.sort-box .item{
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    flex:1;
+    color: #333;
+    font-size: 15px;
+}
+
+.sort-box .item .txt{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.sort-box .item.active .txt{
+    color: #b4282d;
+}
+
+.sort-box .item.by-price{
+    background: url(//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/no-3127092a69.png) 77.5px center no-repeat;
+    background-size: 7.5px 10.5px;
+}
+
+.sort-box .item.by-price.active.asc{
+    background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/up-636b92c0a5.png) 77.5px center no-repeat;
+    background-size: 7.5px 10.5px;
+}
+
+.sort-box .item.by-price.active.desc{
+    background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/down-95e035f3e5.png) 77.5px center no-repeat;
+    background-size: 7.5px 10.5px;
+}
+
+.sort-box-category{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 20px 0 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.sort-box-category .item{
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    float: left;
+    padding: 0 8px;
+    margin: 0 0 20px 20px;
+    border: 1px solid #666;
+    color: #333;
+    font-size: 12px;
+}
+
+.sort-box-category .item.active{
+    color: #b4282d;
+    border: 1px solid #b4282d;
+}
+
+.cate-item{
+    margin-top: 87.5px;
+    height: auto;
+    overflow: hidden;
+}
+
+.cate-item .h{
+    height: 72.5px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cate-item .h .name{
+    display: block;
+    height: 17.5px;
+    margin-bottom: 9px;
+    font-size: 15px;
+    color: #333;
+}
+
+.cate-item .h .desc{
+    display: block;
+    height: 12px;
+    font-size: 12px;
+    color: #999;
+}
+
+.cate-item .b{
+    width: 375px;
+    padding: 0 3.125px;
+    height: auto;
+    overflow: hidden;
+}
+
+.cate-item .list-filter{
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 3.125px;
+}
+
+.cate-item .b .item{
+    float: left;
+    background: #fff;
+    width: 182.5px;
+    margin-bottom: 3.125px;
+    padding-bottom: 16.6665px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cate-item .b .item-b{
+    margin-left: 3.125px;
+}
+
+.cate-item .item .img{
+    width: 151px;
+    height: 151px;
+}
+
+.cate-item .item .name{
+    display: block;
+    width: 182.8125px;
+    height: 17.5px;
+    margin: 5.75px 0 11px 0;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.cate-item .item .price{
+    display: block;
+    width: 182.8125px;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #b4282d;
+}
+
+.search-result-empty{
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.search-result-empty .icon{
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+.search-result-empty .text{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
